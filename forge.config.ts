@@ -23,6 +23,7 @@ const config: ForgeConfig = {
     new MakerSquirrel({
       noDelta: false,
       remoteReleases: "https://github.com/justgo97/appBoilerplate",
+      fixUpPaths: true,
     }),
     new MakerZIP({}, ["darwin"]),
     new MakerRpm({}),
