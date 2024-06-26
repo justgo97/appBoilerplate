@@ -2,6 +2,14 @@
   "name": "appboilerplate",
   "productName": "appboilerplate",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justgo97/appBoilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justgo97/appBoilerplate/issues"
+  },
+  "homepage": "https://github.com/justgo97/appBoilerplate",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -39,6 +47,7 @@
   "author": "hamdi",
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "update-electron-app": "^3.0.0"
   }
 }
