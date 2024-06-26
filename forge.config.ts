@@ -16,6 +16,7 @@ import { rendererConfig } from "./webpack.renderer.config";
 const config: ForgeConfig = {
   packagerConfig: {
     asar: false,
+    appVersion: "1.0.0",
   },
   rebuildConfig: {},
   makers: [
