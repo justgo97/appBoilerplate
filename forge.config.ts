@@ -20,7 +20,7 @@ const config: ForgeConfig = {
   rebuildConfig: {},
   makers: [
     new MakerSquirrel({
-      noDelta: true,
+      noDelta: false,
       remoteReleases: "https://github.com/justgo97/appBoilerplate",
     }),
     new MakerZIP({}, ["darwin"]),
