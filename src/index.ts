@@ -31,6 +31,8 @@ const createWindow = (): void => {
   if (!app.isPackaged) {
     mainWindow.webContents.openDevTools();
   }
+
+  console.log("appVersion: ", app.getVersion());
 };
 
 // This method will be called when Electron has finished
