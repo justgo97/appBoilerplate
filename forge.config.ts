@@ -16,15 +16,13 @@ import { rendererConfig } from "./webpack.renderer.config";
 const config: ForgeConfig = {
   packagerConfig: {
     asar: false,
-    //appVersion: "1.0.0",
+    appVersion: "1.0.0",
   },
   rebuildConfig: {},
   makers: [
     new MakerSquirrel({
       noDelta: false,
       remoteReleases: "https://github.com/justgo97/appBoilerplate",
-      remoteToken: "",
-      usePackageJson: false,
     }),
     new MakerZIP({}, ["darwin"]),
     new MakerRpm({}),
